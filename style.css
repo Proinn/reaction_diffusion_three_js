@@ -1,0 +1,43 @@
+body{
+    overscroll-behavior: none;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+#container{
+    width: 600px;
+    height: 200px;
+    border: 2px solid;
+}
+canvas{
+    display: block;
+}
+
+.slidecontainer {
+    width: 100%; /* Width of the outside container */
+  }
+  
+  /* The slider itself */
+  .slider {
+    width: 100%; /* Full-width */
+    height: 10px; /* Specified height */
+    background: #ffffff; /* Grey background */
+    outline: none; /* Remove outline */
+    border: 2px solid;
+  }
+  
+  /* The slider handle (use -webkit- (Chrome, Opera, Safari, Edge) and -moz- (Firefox) to override default look) */
+  .slider::-webkit-slider-thumb {
+    width: 10px; /* Set a specific slider handle width */
+    height: 10px; /* Slider handle height */
+    background: #252525; /* Green background */
+    cursor: pointer; /* Cursor on hover */
+  }
+  
+  .slider::-moz-range-thumb {
+    width: 10px; /* Set a specific slider handle width */
+    height: 10px; /* Slider handle height */
+    background: #252525; /* Green background */
+    cursor: pointer; /* Cursor on hover */
+  }
